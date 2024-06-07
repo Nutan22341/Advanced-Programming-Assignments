@@ -1,0 +1,47 @@
+Name: Nutan Kumari
+Roll No.: 2022341
+Section: B
+Topic: AP-ASSIGNMENT-1
+
+This whole Assignment-1 is a Project which has Build System : Maven
+The file pom.xml has all the info regrading the build system and other details.
+The main code files are in the folder : /src/main/java/Assignment1
+
+
+---:Steps to Run The Project:---
+1. Compile the whole project using Maven tools  tab in the right corner of IntelliIj.
+2. Double-Click on the compile tool it will compile all the project source files.
+3. Navigate to the folder which contains all the source code: /src/main/java/Assignment1.
+4. Now select the file "Main.java".
+5. Now run this selected file. This file uses the other two files for the librarian and member functions .
+
+:---Libraries used in whole project:---
+import java.time.Duration;
+import java.time.Instant;
+import java.time.ZoneOffset;
+import java.util.*;
+import java.time.format.DateTimeFormatter;
+
+The program uses data structures such as List, Map, and arrays to store information about members and books.
+Member information is stored in members list
+There is the issued_book list in which all issued books record.
+There is the ArrayOfFine array which store book details along with the fine and name of members.
+
+:---Description of the Logic ---:
+I have created three classes : Main ,Book,Bookstore, BookType,Member,Member1 and MemberFine. Now the main file for overall execution is: Main.java
+These classes have different methods and constructor according to their functionality.
+The loop has a different boolean variable, which set to true as first and these variables control the loop condition.
+Inside the loop, the program presents a user-friendly menu, displaying available options .
+The program uses the Scanner class to read the user's choice as a string.
+
+If the user selects "Enter as a Librarian" (option 1), it creates an instance of the Librarian class, allowing librarians to manage the library.
+If the user selects "Enter as a Member" (option 2), it ask form the user to enter name and phone no and if there exist all the two values same in registerd member list then it proceed .
+If the user selects "Exit" (option 3), the loop terminates.
+After choosing from the option the code proceed.
+
+
+
+
+
+
+
